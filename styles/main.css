@@ -1,0 +1,61 @@
+.heading {
+    text-align: center;
+}
+
+.buttonDiv {
+    padding: 20px;
+}
+
+.body {
+    background-color: #dbe8f8;
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-auto-rows: auto;
+}
+
+.bookThumb {
+    background-color: white;
+    border: solid silver 10px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
+}
+
+h1 {
+    font-family: 'cursive';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+p {
+    font-family: 'Old Standard TT', 'Arial';
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+    font-family: 'Old Standard TT', 'Arial';
+	font-size:15px;
+	font-weight: 400;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
